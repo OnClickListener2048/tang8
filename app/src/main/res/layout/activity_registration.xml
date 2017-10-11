@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d60" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/avatar" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d30" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ViewStub
+            android:id="@+id/stub_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/d10"
+            android:background="@drawable/bg_rect"
+            android:elevation="@dimen/d4"
+            android:orientation="vertical"
+            android:translationZ="@dimen/d4" />
+
+        <ViewStub
+            android:id="@+id/stub_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/d10"
+            android:background="@drawable/bg_rect"
+            android:elevation="@dimen/d4"
+            android:orientation="vertical"
+            android:translationZ="@dimen/d4" />
+
+        <ViewStub
+            android:id="@+id/stub_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/d10"
+            android:background="@drawable/bg_rect"
+            android:elevation="@dimen/d4"
+            android:orientation="vertical"
+            android:translationZ="@dimen/d4"
+           />
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

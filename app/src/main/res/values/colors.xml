@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="gray_line">#E7E7E7</color>
+    <color name="gray_hint">#AEAEAE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login">#244C61</color>
+    <color name="register">#218ADA</color>
+    <color name="btn_reception">#ffb94a</color>
+    <color name="btn_reception_end">#f39002</color>
+    <color name="sendout_start">#44a8ff</color>
+    <color name="sendout_end">#0082e2</color>
+    <!--scan code -->
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ff0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#ffcc0000</color>
+    <color name="reception_item">#fc5353</color>
+    <color name="cancel">#999999</color>
+
+    <color name="main_ed">#00A2F2</color>
+    <color name="main">#849EAF</color>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/computer_bg"
+        android:paddingTop="@dimen/d20">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/d60"
+                android:layout_height="@dimen/d60"
+                android:layout_marginTop="@dimen/d25"
+                android:src="@mipmap/defaulticon" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d20"
+                android:text="@string/user_name"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="@dimen/d23"
+            android:layout_height="@dimen/d23"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/d10"
+            android:layout_marginTop="@dimen/d10"
+            android:alpha="0.75"
+            android:src="@mipmap/iv_setting" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/d10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/d20"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btn_reception"
+                android:layout_width="@dimen/d120"
+                android:layout_height="@dimen/d35"
+                android:layout_weight="1"
+                android:background="@drawable/btn_reception"
+                android:text="@string/Reception"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/d20"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btn_sendout"
+                android:layout_width="@dimen/d120"
+                android:layout_height="@dimen/d35"
+                android:layout_weight="1"
+                android:background="@drawable/btn_sendout"
+                android:text="@string/sendout"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="@dimen/d20"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/d10" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d6"
+        android:background="@color/gray_line" />
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/gray_line"
+        android:dividerHeight="@dimen/d1"
+        android:scrollbars="none"></ListView>
+
+
+</LinearLayout>

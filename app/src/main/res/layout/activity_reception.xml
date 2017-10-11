@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:background="@drawable/btn_sendout_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        >
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/iv_back"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/iv_back" />
+
+        <View
+            android:layout_marginTop="@dimen/d10"
+            android:layout_marginBottom="@dimen/d10"
+            android:background="@color/gray_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/d15"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:text="Reception"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:background="@color/gray_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d10"/>
+
+    <LinearLayout
+        android:paddingTop="@dimen/d15"
+        android:paddingBottom="@dimen/d15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="@dimen/s14"
+            android:gravity="center"
+            android:text="Coin Kind"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:ellipsize="end"
+            android:lines="1"
+            android:textSize="@dimen/s14"
+            android:gravity="center"
+            android:text="Send Address"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/s14"
+            android:gravity="center"
+            android:text="Amount"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d0.5"
+        android:background="@color/gray_line"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_reception_record"
+        ></ListView>
+
+</LinearLayout>
